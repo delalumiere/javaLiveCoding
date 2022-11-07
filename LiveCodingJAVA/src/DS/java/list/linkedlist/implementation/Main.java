@@ -10,7 +10,7 @@ public class Main {
 		numbers.addLast(30);
 		numbers.addLast(40);
 		
-	
+		
 	}
 
 }
