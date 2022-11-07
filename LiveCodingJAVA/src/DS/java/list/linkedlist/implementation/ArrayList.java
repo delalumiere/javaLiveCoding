@@ -5,5 +5,10 @@ public class ArrayList {
 	private Object[] elementData = new Object[100];
 	private int size=0;
 	
+	public boolean addLast(Object element) {
+		elementData[size] = element;
+		size++;
+		return true;
+	}
 	
 }
