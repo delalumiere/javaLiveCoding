@@ -10,5 +10,8 @@ public class ArrayList {
 		size++;
 		return true;
 	}
+	public boolean add(Object element) {
+	
+	}
 	
 }
