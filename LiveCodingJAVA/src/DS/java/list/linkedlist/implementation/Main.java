@@ -11,7 +11,7 @@ public class Main {
 		numbers.addLast(40);
 		numbers.add(1,15);
 		
-		
+		numbers.addFirst(5);
 	}
 
 }
