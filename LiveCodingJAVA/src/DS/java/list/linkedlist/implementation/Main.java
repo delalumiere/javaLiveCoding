@@ -40,6 +40,10 @@ public class Main {
 		while(li.hasNext()) {
 			System.out.println(li.next());
 		}
+		//hasPrevious 기능 구현으로 index가 0이상일때까지 리턴. 그런데.. nextIndex--로 지정해놓았기 때문에 다음 값이 0에 도달하면 이미 실제 바운더리를 다음 차례에 (포인터)벗어난다
+		while(li.hasPrevious()) {
+		System.out.println(li.previous());
+		}
 	
 	}
 
