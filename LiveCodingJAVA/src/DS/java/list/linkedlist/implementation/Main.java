@@ -12,11 +12,16 @@ public class Main {
 		
 		System.out.println(numbers);
 		
-		numbers.removeLast();
+//		numbers.removeLast();
 		
 //		numbers.remove(1);
 		
-		System.out.println(numbers.remove(1));
+//		System.out.println(numbers.remove(1));
+		
+		System.out.println(numbers.get(0));
+		System.out.println(numbers.get(1));
+		System.out.println(numbers.get(2));
+		System.out.println(numbers.get(3));
 	}
 
 }
