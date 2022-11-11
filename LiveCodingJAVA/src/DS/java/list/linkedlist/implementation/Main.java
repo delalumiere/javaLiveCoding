@@ -12,7 +12,7 @@ public class Main {
 		
 		System.out.println(numbers);
 		
-//		numbers.removeLast();
+// 		numbers.removeLast();
 		
 //		numbers.remove(1);
 		
