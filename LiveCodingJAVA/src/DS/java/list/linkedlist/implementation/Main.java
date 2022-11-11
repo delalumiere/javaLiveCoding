@@ -11,6 +11,12 @@ public class Main {
 		numbers.addLast(40);
 		
 		System.out.println(numbers);
+		
+		numbers.removeLast();
+		
+//		numbers.remove(1);
+		
+		System.out.println(numbers.remove(1));
 	}
 
 }
