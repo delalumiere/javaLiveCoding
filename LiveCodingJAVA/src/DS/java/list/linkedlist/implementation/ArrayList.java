@@ -103,7 +103,15 @@ public class ArrayList {
 		public boolean hasPrevious() {
 			return nextIndex > 0;
 		}
-		//
+		
+		public void add(Object element) {
+			ArrayList.this.add(nextIndex++, element);
+		}
+		public void remove() {
+		//	System.out.print(nextIndex);
+			ArrayList.this.remove(nextIndex-1);
+			nextIndex--;
+		}
 	}
 
 }
