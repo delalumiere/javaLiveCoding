@@ -58,4 +58,20 @@ public class ArrayList {
 	public Object get(int index) {
 		return elementData[index];
 	}
+	
+	public int size() {
+		return size;
+	}
+
+	public int indexOf(Object o) {
+		//list 의 element 를 순회하는 for loop
+		for( int i=0;i<size;i++) {
+			// o와 elementData 의 i값(인덱스가) 같다면
+			if(o.equals(elementData[i])) {
+				return i; // index값을 리턴
+			}
+		}
+		return -1; //없으면 -1을 return 해준다
+ 	}
+	
 }
